@@ -179,4 +179,10 @@
 			</plugin>
 		</plugins>
 	</reporting>
+	<distributionManagement>
+		<site>
+			<id>shrek</id>
+			    <url>scp://dorag@shrek.unideb.hu:2222/home/<dorag>/public_html/${project.artifactId}</url>
+		</site>
+	</distributionManagement>
 </project>
